@@ -1,0 +1,20 @@
+n="\n" h="h " m="m " s="s" hs=3600 hm=60 r="Fuel Rods" p="Propellant"
+fr=:FuelChamberFuel pr=:GasNetworkStoredResource frt="-" prt="-"
+fr2=:FuelChamberFuel pr2=:GasNetworkStoredResource frs=(fr-fr2)*5
+prs=(pr-pr2)*5 frsec=fr2/(frs+(frs==0)) prsec=pr2/(prs+(prs==0))
+frhm=frsec%hs frh=(frsec-frhm)/hs frmm=frhm%hm frm=(frhm-frmm)/hm
+frsm=frmm%1 frss=frmm-frsm prhm=prsec%hs prh=(prsec-prhm)/hs
+prmm=prhm%hm prm=(prhm-prmm)/hm prsm=prmm%1 prss=prmm-prsm
+if frs>0 then frt=frh+h+frm+m+frss+s end
+if prs>0 then prt=prh+h+prm+m+prss+s end
+:FuelTime=n+r+n+frt+n+n+p+n+prt goto1
+
+
+
+
+
+
+
+
+// SHIP ENERGY MANAGEMENT By Jericho (Discord: jericho#1060)
+// https://github.com/Jericho1060/sb-energy-management
