@@ -19,6 +19,18 @@ On the text panel, modify the 1st field and rename it `FuelTime`.
 
 ![Mounting](https://github.com/Jericho1060/sb-fuel-time/blob/main/pictures/TextPanelFields.jpg?raw=true)
 
+## Propelant Tank Support Fields
+
+On the Tank support, be sure the 3rd field is named `GasNetworkStoredResource`
+
+![Mounting](https://github.com/Jericho1060/sb-fuel-time/blob/main/pictures/FuelTankSupportFields.jpg?raw=true)
+
+## Fuel Chamber Fields
+
+On your fuel chamber(s) be sure the 3rd fild is named `FuelChamberFuel`
+
+![Mounting](https://github.com/Jericho1060/sb-fuel-time/blob/main/pictures/FuelChamberFields.jpg?raw=true)
+
 ## Installation
 
 Copy and paste the content of the file `fueltime.yolol` on the chip
