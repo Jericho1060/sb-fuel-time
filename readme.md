@@ -19,6 +19,10 @@ On the text panel, modify the 1st field and rename it `FuelTime`.
 
 ![Mounting](https://github.com/Jericho1060/sb-fuel-time/blob/main/pictures/TextPanelFields.jpg?raw=true)
 
+## Installation
+
+Copy and paste the content of the file `fueltime.yolol` on the chip
+
 ## Support or donation
 
 if you like it, [<img src="https://github.com/Jericho1060/DU-Industry-HUD/blob/main/ressources/images/ko-fi.png?raw=true" width="150">](https://ko-fi.com/jericho1060)
