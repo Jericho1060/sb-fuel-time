@@ -9,7 +9,7 @@ You can join me on Guilded for help or suggestions or requests by following that
 
 ## Elements Required
 
-- 1 `Advanced YOLOL Chip`
+- 1 `Advanced YOLOL Chip` (1.2s refresh time) or 1 `Basic YOLOL Chip` (1.4s refresh time)
 - 1 `Text Panel 24x24`
 - 1 `YOLOL Chip Socket`
 
@@ -33,7 +33,13 @@ On your fuel chamber(s) be sure the 3rd fild is named `FuelChamberFuel`
 
 ## Installation
 
-Copy and paste the content of the file `fueltime.yolol` on the chip
+### On a basic chip (0.2 slower refresh time than advanced)
+
+Copy and paste the content of the file `fueltime_basic.yolol` on the chip
+
+### On an advanced chip (0.2s faster refresh time than on basic)
+
+Copy and paste the content of the file `fueltime_advanced.yolol` on the chip
 
 ## Support or donation
 
