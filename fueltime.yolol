@@ -1,0 +1,20 @@
+a="h " b="m " c="s" d="Fuel Rods" e="Propellant" f="-" g=3600 h=60
+i=1000 j="\n" k=0 m=0
+n=k o=m p=f q=f k=:FuelChamberFuel m=:GasNetworkStoredResource r=n-k
+s=o-m t=k/(r+r==0) u=m/(s+s==0) v=t/g v=v/i*i w=(t-v*g)/h w=w/i*i
+x=t-v*g-w*h x=x/i*i y=u/g y=y/i*i z=(u-y*g)/h z=z/i*i aa=u-y*g-z*h
+aa=aa/i*i ifr>0thenp=v+a+w+b+x+c end ifs>0thenq=y+a+z+b+aa+c end
+:FuelTime=j+d+j+p+j+j+e+j+q goto3
+
+
+
+
+
+
+
+
+
+
+
+// SHIP FUEL TIME By Jericho (Discord: jericho#1060)
+// https://github.com/Jericho1060/sb-energy-management
