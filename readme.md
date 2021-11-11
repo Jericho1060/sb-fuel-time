@@ -5,7 +5,7 @@ Display on a text panel for how long you will still have fuel.
 
 ## Guilded Server (better than Discord)
 
-You can join me on Guilded for help or suggestions or requests by following that link : https://guilded.jericho1060.com
+You can join me on Guilded for help or suggestions or requests by following that link : https://guilded.jericho.dev
 
 ## Elements Required
 
